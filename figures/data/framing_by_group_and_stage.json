@@ -1,0 +1,750 @@
+{
+ "source": "Paper appendix table 'Stance classification, 24 groups x 5 stages' (Method 1, LLM judge). Net framing = protective_pct - negative_pct.",
+ "stages": [
+  "Pretrain",
+  "SFT",
+  "DPO chosen",
+  "DPO rejected",
+  "RLVR"
+ ],
+ "groups": [
+  {
+   "group": "transgender",
+   "stages": {
+    "Pretrain": {
+     "n": 763,
+     "protective_pct": 61.1,
+     "negative_pct": 5.5
+    },
+    "SFT": {
+     "n": 262,
+     "protective_pct": 66.0,
+     "negative_pct": 6.9
+    },
+    "DPO chosen": {
+     "n": 87,
+     "protective_pct": 69.0,
+     "negative_pct": 11.5
+    },
+    "DPO rejected": {
+     "n": 48,
+     "protective_pct": 41.7,
+     "negative_pct": 31.2
+    },
+    "RLVR": {
+     "n": 8,
+     "protective_pct": 25.0,
+     "negative_pct": 0.0
+    }
+   }
+  },
+  {
+   "group": "disabled",
+   "stages": {
+    "Pretrain": {
+     "n": 557,
+     "protective_pct": 51.0,
+     "negative_pct": 2.3
+    },
+    "SFT": {
+     "n": 683,
+     "protective_pct": 49.9,
+     "negative_pct": 3.1
+    },
+    "DPO chosen": {
+     "n": 335,
+     "protective_pct": 58.5,
+     "negative_pct": 4.8
+    },
+    "DPO rejected": {
+     "n": 265,
+     "protective_pct": 43.0,
+     "negative_pct": 11.3
+    },
+    "RLVR": {
+     "n": 38,
+     "protective_pct": 21.1,
+     "negative_pct": 7.9
+    }
+   }
+  },
+  {
+   "group": "bisexual",
+   "stages": {
+    "Pretrain": {
+     "n": 803,
+     "protective_pct": 44.2,
+     "negative_pct": 4.6
+    },
+    "SFT": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "DPO chosen": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "DPO rejected": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "RLVR": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    }
+   }
+  },
+  {
+   "group": "Black",
+   "stages": {
+    "Pretrain": {
+     "n": 671,
+     "protective_pct": 43.1,
+     "negative_pct": 5.8
+    },
+    "SFT": {
+     "n": 644,
+     "protective_pct": 45.7,
+     "negative_pct": 4.7
+    },
+    "DPO chosen": {
+     "n": 469,
+     "protective_pct": 57.6,
+     "negative_pct": 7.9
+    },
+    "DPO rejected": {
+     "n": 390,
+     "protective_pct": 42.6,
+     "negative_pct": 17.2
+    },
+    "RLVR": {
+     "n": 46,
+     "protective_pct": 26.1,
+     "negative_pct": 4.3
+    }
+   }
+  },
+  {
+   "group": "lesbian",
+   "stages": {
+    "Pretrain": {
+     "n": 703,
+     "protective_pct": 40.8,
+     "negative_pct": 3.6
+    },
+    "SFT": {
+     "n": 18,
+     "protective_pct": 61.1,
+     "negative_pct": 16.7
+    },
+    "DPO chosen": {
+     "n": 15,
+     "protective_pct": 40.0,
+     "negative_pct": 13.3
+    },
+    "DPO rejected": {
+     "n": 8,
+     "protective_pct": 25.0,
+     "negative_pct": 25.0
+    },
+    "RLVR": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    }
+   }
+  },
+  {
+   "group": "Sikh",
+   "stages": {
+    "Pretrain": {
+     "n": 157,
+     "protective_pct": 38.2,
+     "negative_pct": 1.9
+    },
+    "SFT": {
+     "n": 101,
+     "protective_pct": 38.6,
+     "negative_pct": 5.0
+    },
+    "DPO chosen": {
+     "n": 33,
+     "protective_pct": 45.5,
+     "negative_pct": 12.1
+    },
+    "DPO rejected": {
+     "n": 20,
+     "protective_pct": 40.0,
+     "negative_pct": 20.0
+    },
+    "RLVR": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    }
+   }
+  },
+  {
+   "group": "Hispanic/Latino",
+   "stages": {
+    "Pretrain": {
+     "n": 482,
+     "protective_pct": 37.3,
+     "negative_pct": 4.8
+    },
+    "SFT": {
+     "n": 526,
+     "protective_pct": 39.4,
+     "negative_pct": 3.8
+    },
+    "DPO chosen": {
+     "n": 93,
+     "protective_pct": 45.2,
+     "negative_pct": 9.7
+    },
+    "DPO rejected": {
+     "n": 77,
+     "protective_pct": 27.3,
+     "negative_pct": 26.0
+    },
+    "RLVR": {
+     "n": 6,
+     "protective_pct": 16.7,
+     "negative_pct": 0.0
+    }
+   }
+  },
+  {
+   "group": "gay",
+   "stages": {
+    "Pretrain": {
+     "n": 708,
+     "protective_pct": 37.0,
+     "negative_pct": 11.6
+    },
+    "SFT": {
+     "n": 251,
+     "protective_pct": 48.6,
+     "negative_pct": 10.0
+    },
+    "DPO chosen": {
+     "n": 71,
+     "protective_pct": 64.8,
+     "negative_pct": 9.9
+    },
+    "DPO rejected": {
+     "n": 53,
+     "protective_pct": 39.6,
+     "negative_pct": 28.3
+    },
+    "RLVR": {
+     "n": 14,
+     "protective_pct": 14.3,
+     "negative_pct": 0.0
+    }
+   }
+  },
+  {
+   "group": "women",
+   "stages": {
+    "Pretrain": {
+     "n": 313,
+     "protective_pct": 36.4,
+     "negative_pct": 5.1
+    },
+    "SFT": {
+     "n": 256,
+     "protective_pct": 30.5,
+     "negative_pct": 6.6
+    },
+    "DPO chosen": {
+     "n": 268,
+     "protective_pct": 34.7,
+     "negative_pct": 7.8
+    },
+    "DPO rejected": {
+     "n": 247,
+     "protective_pct": 30.0,
+     "negative_pct": 15.8
+    },
+    "RLVR": {
+     "n": 352,
+     "protective_pct": 16.8,
+     "negative_pct": 10.5
+    }
+   }
+  },
+  {
+   "group": "younger",
+   "stages": {
+    "Pretrain": {
+     "n": 288,
+     "protective_pct": 31.2,
+     "negative_pct": 5.6
+    },
+    "SFT": {
+     "n": 279,
+     "protective_pct": 30.1,
+     "negative_pct": 3.2
+    },
+    "DPO chosen": {
+     "n": 311,
+     "protective_pct": 45.7,
+     "negative_pct": 5.5
+    },
+    "DPO rejected": {
+     "n": 342,
+     "protective_pct": 34.2,
+     "negative_pct": 5.8
+    },
+    "RLVR": {
+     "n": 62,
+     "protective_pct": 19.4,
+     "negative_pct": 3.2
+    }
+   }
+  },
+  {
+   "group": "Jewish",
+   "stages": {
+    "Pretrain": {
+     "n": 621,
+     "protective_pct": 30.9,
+     "negative_pct": 3.7
+    },
+    "SFT": {
+     "n": 622,
+     "protective_pct": 37.6,
+     "negative_pct": 2.7
+    },
+    "DPO chosen": {
+     "n": 167,
+     "protective_pct": 53.3,
+     "negative_pct": 3.6
+    },
+    "DPO rejected": {
+     "n": 121,
+     "protective_pct": 28.9,
+     "negative_pct": 20.7
+    },
+    "RLVR": {
+     "n": 19,
+     "protective_pct": 10.5,
+     "negative_pct": 10.5
+    }
+   }
+  },
+  {
+   "group": "older",
+   "stages": {
+    "Pretrain": {
+     "n": 570,
+     "protective_pct": 30.2,
+     "negative_pct": 4.4
+    },
+    "SFT": {
+     "n": 678,
+     "protective_pct": 29.4,
+     "negative_pct": 3.4
+    },
+    "DPO chosen": {
+     "n": 137,
+     "protective_pct": 32.8,
+     "negative_pct": 13.9
+    },
+    "DPO rejected": {
+     "n": 136,
+     "protective_pct": 25.7,
+     "negative_pct": 17.6
+    },
+    "RLVR": {
+     "n": 35,
+     "protective_pct": 25.7,
+     "negative_pct": 2.9
+    }
+   }
+  },
+  {
+   "group": "Muslim",
+   "stages": {
+    "Pretrain": {
+     "n": 341,
+     "protective_pct": 18.8,
+     "negative_pct": 10.0
+    },
+    "SFT": {
+     "n": 477,
+     "protective_pct": 19.3,
+     "negative_pct": 4.2
+    },
+    "DPO chosen": {
+     "n": 217,
+     "protective_pct": 31.8,
+     "negative_pct": 5.1
+    },
+    "DPO rejected": {
+     "n": 185,
+     "protective_pct": 20.0,
+     "negative_pct": 16.2
+    },
+    "RLVR": {
+     "n": 40,
+     "protective_pct": 7.5,
+     "negative_pct": 15.0
+    }
+   }
+  },
+  {
+   "group": "East Asian",
+   "stages": {
+    "Pretrain": {
+     "n": 312,
+     "protective_pct": 17.3,
+     "negative_pct": 6.7
+    },
+    "SFT": {
+     "n": 313,
+     "protective_pct": 18.2,
+     "negative_pct": 8.0
+    },
+    "DPO chosen": {
+     "n": 110,
+     "protective_pct": 30.9,
+     "negative_pct": 6.4
+    },
+    "DPO rejected": {
+     "n": 88,
+     "protective_pct": 21.6,
+     "negative_pct": 17.0
+    },
+    "RLVR": {
+     "n": 19,
+     "protective_pct": 5.3,
+     "negative_pct": 10.5
+    }
+   }
+  },
+  {
+   "group": "South Asian",
+   "stages": {
+    "Pretrain": {
+     "n": 355,
+     "protective_pct": 12.4,
+     "negative_pct": 3.9
+    },
+    "SFT": {
+     "n": 301,
+     "protective_pct": 10.3,
+     "negative_pct": 1.3
+    },
+    "DPO chosen": {
+     "n": 45,
+     "protective_pct": 13.3,
+     "negative_pct": 2.2
+    },
+    "DPO rejected": {
+     "n": 37,
+     "protective_pct": 5.4,
+     "negative_pct": 5.4
+    },
+    "RLVR": {
+     "n": 10,
+     "protective_pct": 0.0,
+     "negative_pct": 0.0
+    }
+   }
+  },
+  {
+   "group": "Arab",
+   "stages": {
+    "Pretrain": {
+     "n": 222,
+     "protective_pct": 11.7,
+     "negative_pct": 12.2
+    },
+    "SFT": {
+     "n": 320,
+     "protective_pct": 45.6,
+     "negative_pct": 12.5
+    },
+    "DPO chosen": {
+     "n": 73,
+     "protective_pct": 37.0,
+     "negative_pct": 19.2
+    },
+    "DPO rejected": {
+     "n": 63,
+     "protective_pct": 17.5,
+     "negative_pct": 41.3
+    },
+    "RLVR": {
+     "n": 15,
+     "protective_pct": 6.7,
+     "negative_pct": 20.0
+    }
+   }
+  },
+  {
+   "group": "Atheist",
+   "stages": {
+    "Pretrain": {
+     "n": 437,
+     "protective_pct": 9.4,
+     "negative_pct": 29.5
+    },
+    "SFT": {
+     "n": 115,
+     "protective_pct": 30.4,
+     "negative_pct": 20.0
+    },
+    "DPO chosen": {
+     "n": 20,
+     "protective_pct": 25.0,
+     "negative_pct": 40.0
+    },
+    "DPO rejected": {
+     "n": 17,
+     "protective_pct": 17.6,
+     "negative_pct": 35.3
+    },
+    "RLVR": {
+     "n": 7,
+     "protective_pct": 0.0,
+     "negative_pct": 28.6
+    }
+   }
+  },
+  {
+   "group": "Hindu",
+   "stages": {
+    "Pretrain": {
+     "n": 507,
+     "protective_pct": 7.1,
+     "negative_pct": 5.5
+    },
+    "SFT": {
+     "n": 220,
+     "protective_pct": 7.3,
+     "negative_pct": 3.6
+    },
+    "DPO chosen": {
+     "n": 59,
+     "protective_pct": 5.1,
+     "negative_pct": 1.7
+    },
+    "DPO rejected": {
+     "n": 42,
+     "protective_pct": 2.4,
+     "negative_pct": 4.8
+    },
+    "RLVR": {
+     "n": 10,
+     "protective_pct": 0.0,
+     "negative_pct": 20.0
+    }
+   }
+  },
+  {
+   "group": "Christian",
+   "stages": {
+    "Pretrain": {
+     "n": 495,
+     "protective_pct": 6.9,
+     "negative_pct": 11.3
+    },
+    "SFT": {
+     "n": 542,
+     "protective_pct": 5.0,
+     "negative_pct": 5.4
+    },
+    "DPO chosen": {
+     "n": 133,
+     "protective_pct": 9.0,
+     "negative_pct": 3.0
+    },
+    "DPO rejected": {
+     "n": 107,
+     "protective_pct": 4.7,
+     "negative_pct": 4.7
+    },
+    "RLVR": {
+     "n": 13,
+     "protective_pct": 0.0,
+     "negative_pct": 0.0
+    }
+   }
+  },
+  {
+   "group": "men",
+   "stages": {
+    "Pretrain": {
+     "n": 63,
+     "protective_pct": 6.3,
+     "negative_pct": 7.9
+    },
+    "SFT": {
+     "n": 58,
+     "protective_pct": 5.2,
+     "negative_pct": 6.9
+    },
+    "DPO chosen": {
+     "n": 61,
+     "protective_pct": 6.6,
+     "negative_pct": 16.4
+    },
+    "DPO rejected": {
+     "n": 59,
+     "protective_pct": 8.5,
+     "negative_pct": 13.6
+    },
+    "RLVR": {
+     "n": 109,
+     "protective_pct": 1.8,
+     "negative_pct": 7.3
+    }
+   }
+  },
+  {
+   "group": "heterosexual",
+   "stages": {
+    "Pretrain": {
+     "n": 264,
+     "protective_pct": 3.8,
+     "negative_pct": 10.6
+    },
+    "SFT": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "DPO chosen": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "DPO rejected": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "RLVR": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    }
+   }
+  },
+  {
+   "group": "White",
+   "stages": {
+    "Pretrain": {
+     "n": 443,
+     "protective_pct": 2.5,
+     "negative_pct": 20.5
+    },
+    "SFT": {
+     "n": 429,
+     "protective_pct": 6.1,
+     "negative_pct": 16.8
+    },
+    "DPO chosen": {
+     "n": 108,
+     "protective_pct": 7.4,
+     "negative_pct": 17.6
+    },
+    "DPO rejected": {
+     "n": 86,
+     "protective_pct": 5.8,
+     "negative_pct": 24.4
+    },
+    "RLVR": {
+     "n": 16,
+     "protective_pct": 0.0,
+     "negative_pct": 37.5
+    }
+   }
+  },
+  {
+   "group": "cisgender",
+   "stages": {
+    "Pretrain": {
+     "n": 461,
+     "protective_pct": 1.7,
+     "negative_pct": 19.3
+    },
+    "SFT": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "DPO chosen": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "DPO rejected": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    },
+    "RLVR": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    }
+   }
+  },
+  {
+   "group": "non-disabled",
+   "stages": {
+    "Pretrain": {
+     "n": 152,
+     "protective_pct": 0.0,
+     "negative_pct": 17.1
+    },
+    "SFT": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "1-4 hits"
+    },
+    "DPO chosen": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    },
+    "DPO rejected": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    },
+    "RLVR": {
+     "n": null,
+     "protective_pct": null,
+     "negative_pct": null,
+     "note": "no hits"
+    }
+   }
+  }
+ ]
+}

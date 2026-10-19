@@ -1,8 +1,8 @@
 # Third-Party Dependencies
 
-This repository contains no vendored or copy-pasted third-party source code —
-every debiasing method (LEACE, INLP, CAA, CAST, LoReFT, Shifting Perspectives,
-etc.) is an original implementation. The only external IP involved is the
+This repository contains no vendored or copy-pasted third-party source code.
+Every debiasing method (INLP, CAA, CAST, LoReFT, Shifting Perspectives, etc.) is
+our own implementation, except LEACE, which uses the `concept-erasure` package. The only external IP involved is the
 pip packages listed in `requirements.txt`, all of which are permissively
 licensed.
 
@@ -24,6 +24,7 @@ licensed.
 | concept-erasure | MIT | LEACE implementation |
 | python-dotenv | BSD-3-Clause | Loading API keys from a local `.env` (never committed) |
 
-**Summary:** all 15 dependencies are MIT, BSD-3-Clause, or Apache-2.0 —
-no copyleft (GPL/AGPL/LGPL) licenses are present. Code itself is released
+**Summary:** all 15 dependencies use permissive licenses (MIT, BSD-3-Clause,
+Apache-2.0, or matplotlib's PSF-based license); no copyleft (GPL/AGPL/LGPL)
+licenses are present. Code itself is released
 under MIT (see `LICENSE`).
