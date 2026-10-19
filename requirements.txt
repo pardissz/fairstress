@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+torch
+transformers
+vllm
+datasets
+huggingface_hub
+openai
+anthropic
+concept-erasure
+python-dotenv
